@@ -21,7 +21,12 @@ git checkout main -b <your-branch>
 8. Create service that assigns a public URL to your workload
 9. Click the service URL link to see the result (it may take few minutes until URL is available)
 
-## Test build with Docker
+# Explore 
+1. See team `boutique` that deploys multi micro service application
+2. Open D2 bookmark in web browser to see who this application can be split across many teams
+
+
+# Test build with Docker
 
 All Dockerfiles use multi-stage builds with test stages. Tests are run during the build process and must pass before the final image is created.
 
