@@ -23,7 +23,7 @@ git checkout main -b <your-branch>
 
 # Explore 
 1. See team `boutique` that deploys multi micro service application
-2. Open D2 bookmark in web browser to see who this application can be split across many teams
+2. Open the `D2` bookmark in the web browser to see how this application can be split across many teams
 
 
 # Test build with Docker
