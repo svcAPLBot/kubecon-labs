@@ -29,14 +29,12 @@ All Dockerfiles use multi-stage builds with test stages. Tests are run during th
 ```bash
 cd go-server
 docker build -t go-server .
-docker run -p 8080:8080 -e MESSAGE="docker go" go-server
 ```
 
 **Python:**
 ```bash
 cd python-server
 docker build -t python-server .
-docker run -p 8080:8080 -e MESSAGE="docker python" python-server
 ```
 
 **Node.js:**
